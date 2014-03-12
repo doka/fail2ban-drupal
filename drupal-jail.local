@@ -1,0 +1,9 @@
+# Filter for Drupal
+[drupal-login]
+enabled  = true
+filter   = drupal-login
+port     = http,https
+logpath  = /var/log/syslog
+bantime  = 86400
+findtime = 86400
+maxRetry = 3
